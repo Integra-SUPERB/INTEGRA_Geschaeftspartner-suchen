@@ -1,0 +1,230 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:glob="http://sap.com/xi/SAPGlobal20/Global">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <glob:BusinessPartnerBasicDataByElementsQuery>
+         <MessageHeader BusinessDocumentObjectListCompleteTransmissionIndicator="?">
+            <!--Optional:-->
+            <ID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ID>
+            <!--Optional:-->
+            <UUID schemeID="?" schemeAgencyID="?">?</UUID>
+            <!--Optional:-->
+            <ReferenceID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ReferenceID>
+            <!--Optional:-->
+            <ReferenceUUID schemeID="?" schemeAgencyID="?">?</ReferenceUUID>
+            <!--Optional:-->
+            <CreationDateTime>?</CreationDateTime>
+            <!--Optional:-->
+            <TestDataIndicator>?</TestDataIndicator>
+            <!--Optional:-->
+            <ReconciliationIndicator>?</ReconciliationIndicator>
+            <!--Optional:-->
+            <SenderBusinessSystemID>?</SenderBusinessSystemID>
+            <!--Optional:-->
+            <RecipientBusinessSystemID>?</RecipientBusinessSystemID>
+            <!--Optional:-->
+            <SenderParty>
+               <!--Optional:-->
+               <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="?">?</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <OrganisationFormattedName>?</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <PersonFormattedName>?</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="?">?</EmailURI>
+               </ContactPerson>
+            </SenderParty>
+            <!--Optional:-->
+            <RecipientParty>
+               <!--Optional:-->
+               <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="?">?</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <OrganisationFormattedName>?</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <PersonFormattedName>?</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="?">?</EmailURI>
+               </ContactPerson>
+            </RecipientParty>
+            <!--Optional:-->
+            <BusinessScope>
+               <TypeCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</TypeCode>
+               <!--Optional:-->
+               <InstanceID schemeID="?" schemeAgencyID="?">?</InstanceID>
+               <!--Optional:-->
+               <ID schemeID="?" schemeAgencyID="?">?</ID>
+            </BusinessScope>
+         </MessageHeader>
+         <!--Optional:-->
+         <BusinessPartnerSelectionByElements>
+            <!--Optional:-->
+            <CategoryCode>?</CategoryCode>
+            <!--Optional:-->
+            <LifeCycleStatusCode>?</LifeCycleStatusCode>
+            <!--Optional:-->
+            <CommonKeyWordsSearchText>?</CommonKeyWordsSearchText>
+            <!--Optional:-->
+            <CommonAdditionalKeyWordsSearchText>?</CommonAdditionalKeyWordsSearchText>
+            <!--Optional:-->
+            <CommonNameSearchText>?</CommonNameSearchText>
+            <!--Optional:-->
+            <CommonAdditionalNameSearchText>?</CommonAdditionalNameSearchText>
+            <!--Optional:-->
+            <PostalAddressCountryCode>?</PostalAddressCountryCode>
+            <!--Optional:-->
+            <PostalAddressRegionCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</PostalAddressRegionCode>
+            <!--Optional:-->
+            <PostalAddressCityNameSearchText>?</PostalAddressCityNameSearchText>
+            <!--Optional:-->
+            <PostalAddressStreetNameSearchText>?</PostalAddressStreetNameSearchText>
+            <!--Optional:-->
+            <TelephoneFormattedNumberDescription>?</TelephoneFormattedNumberDescription>
+            <!--Optional:-->
+            <FacsimileFormattedNumberDescription>?</FacsimileFormattedNumberDescription>
+            <!--Optional:-->
+            <EmailURISearchText>?</EmailURISearchText>
+            <!--Optional:-->
+            <WebURISearchText>?</WebURISearchText>
+            <!--Optional:-->
+            <SelectionByRelationship>
+               <!--Optional:-->
+               <BusinessPartnerInternalID>?</BusinessPartnerInternalID>
+               <!--Optional:-->
+               <BusinessPartnerCommonNameSearchText>?</BusinessPartnerCommonNameSearchText>
+               <!--Optional:-->
+               <BusinessPartnerCommonAdditionalNameSearchText>?</BusinessPartnerCommonAdditionalNameSearchText>
+               <!--Optional:-->
+               <RoleCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</RoleCode>
+            </SelectionByRelationship>
+            <!--Optional:-->
+            <SelectionByContactPerson>
+               <!--Optional:-->
+               <ContactPersonGivenNameSearchText>?</ContactPersonGivenNameSearchText>
+               <!--Optional:-->
+               <ContactPersonFamilyNameSearchText>?</ContactPersonFamilyNameSearchText>
+            </SelectionByContactPerson>
+            <!--Zero or more repetitions:-->
+            <SelectionByIdentification>
+               <PartyIdentifierTypeCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</PartyIdentifierTypeCode>
+               <BusinessPartnerIDSearchText>?</BusinessPartnerIDSearchText>
+            </SelectionByIdentification>
+            <!--Zero or more repetitions:-->
+            <SelectionByBusinessPartnerInternalID>
+               <InclusionExclusionCode>?</InclusionExclusionCode>
+               <IntervalBoundaryTypeCode>?</IntervalBoundaryTypeCode>
+               <LowerBoundaryBusinessPartnerInternalIDSearchText>?</LowerBoundaryBusinessPartnerInternalIDSearchText>
+               <!--Optional:-->
+               <UpperBoundaryBusinessPartnerInternalID>?</UpperBoundaryBusinessPartnerInternalID>
+            </SelectionByBusinessPartnerInternalID>
+            <!--Zero or more repetitions:-->
+            <SelectionByCommonBirthDate>
+               <InclusionExclusionCode>?</InclusionExclusionCode>
+               <IntervalBoundaryTypeCode>?</IntervalBoundaryTypeCode>
+               <LowerBoundaryBirthDate>?</LowerBoundaryBirthDate>
+               <!--Optional:-->
+               <UpperBoundaryBirthDate>?</UpperBoundaryBirthDate>
+            </SelectionByCommonBirthDate>
+            <!--Zero or more repetitions:-->
+            <SelectionByAddressPostalCode>
+               <InclusionExclusionCode>?</InclusionExclusionCode>
+               <IntervalBoundaryTypeCode>?</IntervalBoundaryTypeCode>
+               <LowerBoundaryAddressPostalCodeSearchText>?</LowerBoundaryAddressPostalCodeSearchText>
+               <!--Optional:-->
+               <UpperBoundaryAddressPostalCode>?</UpperBoundaryAddressPostalCode>
+            </SelectionByAddressPostalCode>
+            <!--Zero or more repetitions:-->
+            <SelectionByAddressHouseID>
+               <InclusionExclusionCode>?</InclusionExclusionCode>
+               <IntervalBoundaryTypeCode>?</IntervalBoundaryTypeCode>
+               <LowerBoundaryAddressHouseID>?</LowerBoundaryAddressHouseID>
+               <!--Optional:-->
+               <UpperBoundaryAddressHouseID>?</UpperBoundaryAddressHouseID>
+            </SelectionByAddressHouseID>
+            <!--Zero or more repetitions:-->
+            <SelectionByRoleCode>
+               <InclusionExclusionCode>?</InclusionExclusionCode>
+               <RoleCode listID="?" listAgencyID="?" listVersionID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</RoleCode>
+            </SelectionByRoleCode>
+         </BusinessPartnerSelectionByElements>
+         <!--Optional:-->
+         <ProcessingConditions>
+            <!--Optional:-->
+            <QueryHitsMaximumNumberValue>?</QueryHitsMaximumNumberValue>
+            <QueryHitsUnlimitedIndicator>?</QueryHitsUnlimitedIndicator>
+            <!--Optional:-->
+            <LastReturnedObjectID schemeID="?" schemeVersionID="?" schemeAgencyID="?" schemeAgencySchemeID="?" schemeAgencySchemeAgencyID="?">?</LastReturnedObjectID>
+         </ProcessingConditions>
+      </glob:BusinessPartnerBasicDataByElementsQuery>
+   </soapenv:Body>
+</soapenv:Envelope>
